@@ -102,18 +102,23 @@
 .header{
     background: linear-gradient(to bottom right, #deffc9, #a3f8ff);
     // display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 4em;
-    border-style: line;
-    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    // min-height: 4em;
+    // border-style: line;
+    // flex-direction: column;
+    // text-align: center;
+    width: 60%;
+    margin: 0 auto;
     text-align: center;
 
     &__name{
         text-align:center;
     }
     &__img{
-        float: right;
+        position: absolute;
+        left: 0;
+        top: 0;
     }
     //fonts
     color: black;
